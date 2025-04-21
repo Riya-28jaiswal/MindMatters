@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: 
+    url(bg2.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-color: rgb(114, 240, 240);
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    float:left;
+    width: 140px;
+    height:140px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+nav {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+nav a:hover {
+    color: gray;
+}
+section {
+    padding: 20px;
+    height: 600px;
+
+    /* border: 2px solid red; */
+    /* display: none; */
+}
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+table{
+    border: none;
+    color:#fff
+}
+h4{
+    font-size:20px;
+}
+h5{
+    text-align: center;
+    font-size:50px;
+    /* text-align: left; */
+    color: rgb(0, 102, 255);
+}
+
+/* @media oly screen and (max-width:600px)
+{
+    header{
+        padding:10px;
+
+    } */
+/* home{ */
+    /* fa fa-clou */
+/* } */
+
+.customFont {
+    font-family: "Manuale", serif;
+  
+  }
